@@ -1,0 +1,15 @@
+# Do not edit manually
+*.go linguist-detectable
+public/**/*.html linguist-vendored
+
+*.sh text eol=lf
+
+**/*.go linguist-detectable
+Cargo.lock linguist-generated
+
+public/index.html linguist-vendored
+dist/* linguist-vendored
+* text=auto
+
+*.yml linguist-detectable=false
+*.min.css linguist-generated
